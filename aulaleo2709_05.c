@@ -13,10 +13,11 @@ int main(int argc, char *argv[]) {
 	}
 	
 	for(i = 0;i <=4; i++){
-		printf("%d\t",vet[i]);
+		printf("%d\n",vet[i]);
 	}
-	for(i = 0;i <=4; i--){
-		printf("%d\t",vet[i]);
+	
+	for(i = 0;i >=0; i--){
+		printf("%d\n",vet[i]);
 	}
 	return 0;
 }
